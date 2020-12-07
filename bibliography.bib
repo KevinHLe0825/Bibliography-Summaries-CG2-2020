@@ -14,7 +14,7 @@
   year={2020},
   volume={},
   number={},
-  pages={1-1},}
+  pages={1-12},}
   
  @ARTICLE{8805467,  author={M. {Whitlock} and K. {Wu} and D. A. {Szafir}},  journal={IEEE Transactions on Visualization and Computer Graphics},   title={Designing for Mobile and Immersive Visual Analytics in the Field},   year={2020},  volume={26},  number={1},  pages={503-513},}
  
@@ -144,7 +144,7 @@ series = {SAP '16}
   year={2020},
   volume={},
   number={},
-  pages={1-1},
+  pages={1-15},
   doi={10.1109/TVCG.2020.3018483}}
 
 @article{10.1145/3377406,
@@ -165,4 +165,148 @@ month = mar,
 articleno = {18},
 numpages = {17},
 keywords = {biharmonic, smoothing, Geometry, Hessian, curvature, interpolation, Laplacian}
+}
+
+@ARTICLE{9018202,
+  author={S. {Jiddi} and P. {Robert} and E. {Marchand}},
+  journal={IEEE Transactions on Visualization and Computer Graphics}, 
+  title={Detecting Specular Reflections and Cast Shadows to Estimate Reflectance and Illumination of Dynamic Indoor Scenes}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1-12},
+  doi={10.1109/TVCG.2020.2976986}}
+  
+@article{10.1145/3383195,
+author = {Wisessing, Pisut and Zibrek, Katja and Cunningham, Douglas W. and Dingliana, John and McDonnell, Rachel},
+title = {Enlighten Me: Importance of Brightness and Shadow for Character Emotion and Appeal},
+year = {2020},
+issue_date = {June 2020},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {39},
+number = {3},
+issn = {0730-0301},
+url = {https://doi-org.umasslowell.idm.oclc.org/10.1145/3383195},
+doi = {10.1145/3383195},
+abstract = {Lighting has been used to enhance emotion and appeal of characters for centuries, from paintings in the Renaissance to the modern-day digital arts. In VFX and animation studios, lighting is considered as important as modelling, shading, or rigging. Most existing work focuses on either empirical best-practice created by artists of the centuries or on lighting perception with basic shapes. In contrast, our work focuses on the effect of lighting on emotional characters. Our study presents an extensive set of novel perceptual experiments designed to investigate the effects of brightness levels (key light brightness) and the proportion of light intensity illuminating the two sides of a character’s face (key-to-fill ratio). We are particularly interested in the effect of lighting on the recognition of emotion, emotion intensity, and the overall appeal, as these are crucial factors for audience engagement. Our results have implications for artists and developers wishing to increase the appeal and emotional expression of their characters, ranging from cartoon to realistic styles. Our key finding is that lighting can be used to effectively alter the intensity of emotion of a character and that brighter conditions increased appeal across all of our experiments.},
+journal = {ACM Trans. Graph.},
+month = apr,
+articleno = {19},
+numpages = {12},
+keywords = {appeal, virtual characters, Perception, uncanny valley, emotion, character lighting}
+}
+
+@INPROCEEDINGS{9222984,
+  author={D. {Pohl} and S. {Panneer} and D. S. {Vembar} and C. S. {Marshall}},
+  booktitle={2020 15th Conference on Computer Science and Information Systems (FedCSIS)}, 
+  title={15 Years Later: A Historic Look Back at “Quake 3: Ray Traced”}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={401-412},
+  doi={10.15439/2020F3}}
+  
+@inproceedings{10.1145/3384382.3384534,
+author = {Meister, Daniel and Boksansky, Jakub and Guthe, Michael and Bittner, Jiri},
+title = {On Ray Reordering Techniques for Faster GPU Ray Tracing},
+year = {2020},
+isbn = {9781450375894},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi-org.umasslowell.idm.oclc.org/10.1145/3384382.3384534},
+doi = {10.1145/3384382.3384534},
+abstract = {We study ray reordering as a tool for increasing the performance of existing GPU ray tracing implementations. We focus on ray reordering that is fully agnostic to the particular trace kernel. We summarize the existing methods for computing the ray sorting keys and discuss their properties. We propose a novel modification of a previously proposed method using the termination point estimation that is well-suited to tracing secondary rays. We evaluate the ray reordering techniques in the context of the wavefront path tracing using the RTX trace kernels. We show that ray reordering yields significantly higher trace speed on recent GPUs (1.3 − 2.0 \texttimes{}), but to recover the reordering overhead in the hardware-accelerated trace phase is problematic.},
+booktitle = {Symposium on Interactive 3D Graphics and Games},
+articleno = {13},
+numpages = {9},
+keywords = {RTX, ray sorting, ray tracing, real-time rendering},
+location = {San Francisco, CA, USA},
+series = {I3D '20}
+}
+
+@ARTICLE{7867077,
+  author={P. {Hedman} and T. {Karras} and J. {Lehtinen}},
+  journal={IEEE Transactions on Visualization and Computer Graphics}, 
+  title={Sequential Monte Carlo Instant Radiosity}, 
+  year={2017},
+  volume={23},
+  number={5},
+  pages={1442-1453},
+  doi={10.1109/TVCG.2017.2676089}}
+  
+@inproceedings{10.1145/2448196.2448206,
+author = {Sheng, Yu and Shi, Yulong and Wang, Lili and Narasimhan, Srinivasa G.},
+title = {A Practical Analytic Model for the Radiosity of Translucent Scenes},
+year = {2013},
+isbn = {9781450319560},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi-org.umasslowell.idm.oclc.org/10.1145/2448196.2448206},
+doi = {10.1145/2448196.2448206},
+abstract = {Light propagation in scenes with translucent objects is hard to model efficiently for interactive applications. The inter-reflections between objects and their environments and the subsurface scattering through the materials intertwine to produce visual effects like color bleeding, light glows and soft shading. Monte-Carlo based approaches have demonstrated impressive results but are computationally expensive, and faster approaches model either only inter-reflections or only subsurface scattering. In this paper, we present a simple analytic model that combines diffuse inter-reflections and isotropic subsurface scattering. Our approach extends the classical work in radiosity by including a subsurface scattering matrix that operates in conjunction with the traditional form-factor matrix. This subsurface scattering matrix can be constructed using analytic, measurement-based or simulation-based models and can capture both homogeneous and heterogeneous translucencies. Using a fast iterative solution to radiosity, we demonstrate scene relighting and dynamically varying object translucencies at near interactive rates.},
+booktitle = {Proceedings of the ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games},
+pages = {63–70},
+numpages = {8},
+keywords = {inter-reflection, subsurface scattering, radiosity},
+location = {Orlando, Florida},
+series = {I3D '13}
+}
+
+@ARTICLE{8022957,
+  author={S. {Fan} and T. -T. {Ng} and B. L. {Koenig} and J. S. {Herberg} and M. {Jiang} and Z. {Shen} and Q. {Zhao}},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Image Visual Realism: From Human Perception to Machine Computation}, 
+  year={2018},
+  volume={40},
+  number={9},
+  pages={2180-2193},
+  doi={10.1109/TPAMI.2017.2747150}}
+  
+@inproceedings{10.1145/3385956.3418945,
+author = {Huang, Jiawei and Klippel, Alexander},
+title = {The Effects of Visual Realism on Spatial Memory and Exploration Patterns in Virtual Reality},
+year = {2020},
+isbn = {9781450376198},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi-org.umasslowell.idm.oclc.org/10.1145/3385956.3418945},
+doi = {10.1145/3385956.3418945},
+abstract = { Understanding the effects of environmental features such as visual realism on spatial memory can inform a human-centered design of virtual environments. This paper investigates the effects of visual realism on object location memory in virtual reality, taking account of individual differences, gaze, and locomotion. Participants freely explored two environments which varied in visual realism, and then recalled the locations of objects by returning the misplaced objects back to original locations. Overall, we did not find a significant relationship between visual realism and object location memory. We found, however, that individual differences such as spatial ability and gender accounted for more variance than visual realism. Gaze and locomotion analysis suggest that participants exhibited longer gaze duration and more clustered movement patterns in the low realism condition. Preliminary inspection further found that locomotion hotspots coincided with objects that showed a significant gaze time difference between high and low visual realism levels. These results suggest that high visual realism still provides positive spatial learning affordances but the effects are more intricate. },
+booktitle = {26th ACM Symposium on Virtual Reality Software and Technology},
+articleno = {18},
+numpages = {11},
+keywords = {Visual realism, Spatial memory, Virtual reality, Visual fidelity, Spatial ability},
+location = {Virtual Event, Canada},
+series = {VRST '20}
+}
+
+@ARTICLE{8998352,
+  author={M. {Gonzalez-Franco} and A. {Steed} and S. {Hoogendyk} and E. {Ofek}},
+  journal={IEEE Transactions on Visualization and Computer Graphics}, 
+  title={Using Facial Animation to Increase the Enfacement Illusion and Avatar Self-Identification}, 
+  year={2020},
+  volume={26},
+  number={5},
+  pages={2023-2029},
+  doi={10.1109/TVCG.2020.2973075}}
+  
+@article{10.1145/3386569.3392404,
+author = {Ye, Hui and Kwan, Kin Chung and Su, Wanchao and Fu, Hongbo},
+title = {ARAnimator: In-Situ Character Animation in Mobile AR with User-Defined Motion Gestures},
+year = {2020},
+issue_date = {July 2020},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {39},
+number = {4},
+issn = {0730-0301},
+url = {https://doi-org.umasslowell.idm.oclc.org/10.1145/3386569.3392404},
+doi = {10.1145/3386569.3392404},
+abstract = {Creating animated virtual AR characters closely interacting with real environments is interesting but difficult. Existing systems adopt video see-through approaches to indirectly control a virtual character in mobile AR, making close interaction with real environments not intuitive. In this work we use an AR-enabled mobile device to directly control the position and motion of a virtual character situated in a real environment. We conduct two guessability studies to elicit user-defined motions of a virtual character interacting with real environments, and a set of user-defined motion gestures describing specific character motions. We found that an SVM-based learning approach achieves reasonably high accuracy for gesture classification from the motion data of a mobile device. We present ARAnimator, which allows novice and casual animation users to directly represent a virtual character by an AR-enabled mobile phone and control its animation in AR scenes using motion gestures of the device, followed by animation preview and interactive editing through a video see-through interface. Our experimental results show that with ARAnimator, users are able to easily create in-situ character animations closely interacting with different real environments.},
+journal = {ACM Trans. Graph.},
+month = jul,
+articleno = {83},
+numpages = {12},
+keywords = {mobile augmented reality, gesture Classification, user defined gestures, interactive system, character animation}
 }
